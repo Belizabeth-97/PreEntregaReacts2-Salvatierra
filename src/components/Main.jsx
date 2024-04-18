@@ -4,10 +4,9 @@ function Main () {
     return (
         <main className="p-6 grow">
             <h2>Productos</h2>
-            <ItemListContainer></ItemListContainer>
-            <UserCard>
+            <ItemListContainer>
                 name={}
-            </UserCard>
+            </ItemListContainer>
         </main>
     )
 }
