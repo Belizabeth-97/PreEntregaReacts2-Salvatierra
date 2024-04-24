@@ -1,4 +1,7 @@
 import CardProducts from "./CardProducts"
+import MiAPI from "./MiAPI.json"
+
+/* Container debe llevar un efecto y un estado */
 
 function ItemListContainer() {
   // Lista de productos

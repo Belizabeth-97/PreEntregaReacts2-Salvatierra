@@ -1,12 +1,13 @@
+import { Link, NavLink } from "react-router-dom"
 import CartWidget from "./CartWidget"
 
 
 function NavBar (){
     return (
         <nav className="flex flex-row justify-end gap-8">
-            <a href="#">Menú</a>
-            <a href="#">Productos</a>
-            <a href="#">Contacto</a>
+            <Link to="">Inicio</Link>
+            <Link to="">Menú</Link>
+            <Link to="">Contacto</Link>
             <CartWidget></CartWidget>
         </nav>
     )
