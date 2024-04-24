@@ -11,16 +11,3 @@ function CardProducts(props) {
 }
 
 export default CardProducts;
-
-/*
-
-
-
-    <div className="card-products">
-      <img src="/Hamburguesa-fondo-negro.jpg" alt="" className=""></img>
-      <h2>{props.nombre}</h2>
-      <button type="button" className=" bg-amber-400 px-8 py-3 font-semibold rounded-full dark:bg-gray-800 dark:text-gray-100">Comprar</button>
-    </div>
-    
-
-*/
