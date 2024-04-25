@@ -1,5 +1,4 @@
 import CardProducts from "./CardProducts"
-import MiAPI from "./MiAPI.json"
 
 /* Container debe llevar un efecto y un estado */
 
@@ -16,8 +15,8 @@ function ItemListContainer() {
     { nombre: 'Triple Cheddar', id: 8 },
     { nombre: 'Triple Bacon', id: 9 },
     { nombre: 'Papas fritas', id: 10 },
-    { nombre: 'Papas fritas con Cheddar', id: 11 },
-    { nombre: 'Papas fritas con Cheddar y Bacon', id: 12 },
+    { nombre: 'Papas con Cheddar', id: 11 },
+    { nombre: 'Papas con Cheddar y Bacon', id: 12 },
   ];
 
   return (

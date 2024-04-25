@@ -8,11 +8,11 @@ function Main () {
     return (
         <main className="p-6 grow bg-orange-200">
             <Routes>
-                <Route path='' element={<Inicio/>}></Route>
+                <Route path='/' element={<Inicio/>}></Route>
                 <Route path='/Menu' element={<Menu/>}></Route>
                 <Route path='/Contacto' element={<Contacto/>}></Route>
-            </Routes>
-            
+                
+            </Routes> 
         </main>
     )
 }

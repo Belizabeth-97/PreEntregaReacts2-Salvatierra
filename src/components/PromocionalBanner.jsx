@@ -5,7 +5,7 @@ function PromotionalBanner() {
         <div className="flex items-center mx-auto container justify-center md:justify-between py-2">
           <div>
             <span>
-              Obtenga hasta un 50% de descuento en su primer pedido + envío gratis, ¡&nbsp;
+              Obtenga hasta un 15% de descuento en su primer pedido + envío gratis, ¡&nbsp;
             </span>
             <a href="#" rel="noopener noreferrer" className="underline">registrarse aquí!</a>
           </div>
