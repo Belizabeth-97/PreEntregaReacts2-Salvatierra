@@ -6,7 +6,7 @@ import Contacto from "../Pages/Contacto"
 
 function Main () {
     return (
-        <main className="p-6 grow font-bold font bg-amber-200">
+        <main className="p-6 grow bg-orange-200">
             <Routes>
                 <Route path='' element={<Inicio/>}></Route>
                 <Route path='/Menu' element={<Menu/>}></Route>

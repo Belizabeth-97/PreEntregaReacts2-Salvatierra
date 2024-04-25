@@ -1,10 +1,12 @@
 import NavBar from "./NavBar"
-import Logo from "/hamburguesa.png"
+import PromotionalBanner from "./PromocionalBanner"
+import Logo from "/burgermarron.png"
 
 function Header () {
     return (
-        <header className=" bg-amber-400 p-6 flex-colums">
-            <img src={Logo} alt="" className="h-14"></img>
+        <header className=" bg-orange-300 p-6 flex-colums">
+            <PromotionalBanner></PromotionalBanner>
+            <img src={Logo} alt="" className="flex h-40"></img>
             <NavBar></NavBar>
         </header>
     )
